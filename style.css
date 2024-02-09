@@ -122,9 +122,8 @@ tooltip {
     color: @main-fg;
     background: @main-bg;
     opacity: 1;
-    margin: 8px 0px 8px 0px;
-    padding-left: 6px;
-    padding-right: 6px;
+    margin: 4px 0px 4px 0px;
+    padding: 4px 5px;
 }
 
 #workspaces,
