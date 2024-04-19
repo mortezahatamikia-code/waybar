@@ -20,7 +20,7 @@
         "custom/r_end",
         "custom/l_end",
         "wlr/taskbar",
-        "custom/spotify",
+        // "custom/spotify",
         "custom/r_end",
         "custom/padd",
         "custom/l_end",
@@ -166,7 +166,7 @@
         "escape": true
     },
     "idle_inhibitor": {
-        "format": "{icon}",
+        "format": "{icon} ",
         "format-icons": {
             "activated": "󰥔",
             "deactivated": ""

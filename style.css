@@ -2,9 +2,9 @@
     border: none;
     border-radius: 0px;
     /* JetBrainsMono Nerd Font */
-    font-family: "Ubuntu Mono";
+    font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     min-height: 12px;
 }
 
@@ -26,8 +26,8 @@ tooltip {
 	text-shadow: none;
     padding: 0px;
     border-radius: 9px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-left: 8px;
     padding-right: 8px;
     color: @main-fg;
@@ -38,10 +38,10 @@ tooltip {
 #workspaces button.active {
     background: @wb-act-bg;
     color: @wb-act-fg;
-    margin-left: 3px;
+    margin-left: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    margin-right: 3px;
+    margin-right: 5px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -60,8 +60,8 @@ tooltip {
 	text-shadow: none;
     padding: 0px;
     border-radius: 9px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-left: 3px;
     padding-right: 3px;
     color: @wb-color;
@@ -72,10 +72,10 @@ tooltip {
 #taskbar button.active {
     background: @wb-act-bg;
     color: @wb-act-color;
-    margin-left: 3px;
+    margin-left: 5px;
     padding-left: 6px;
     padding-right: 6px;
-    margin-right: 3px;
+    margin-right: 5px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -89,27 +89,34 @@ tooltip {
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
+#custom-cliphist,
+#custom-power,
+#clock,
+#custom-mode,
+#custom-wbar,
+#custom-wallchange {
+    color: @main-fg;
+    background: @main-bg;
+    opacity: 1;
+    margin: 8px 0px 8px 0px;
+    padding: 4px 8px;
+}
+
 #backlight,
 #battery,
 #bluetooth,
-#custom-cliphist,
-#clock,
 #cpu,
 #custom-gpuinfo,
 #idle_inhibitor,
 #language,
 #memory,
-#custom-mode,
 #mpris,
 #network,
-#custom-power,
 #pulseaudio,
 #custom-spotify,
 #taskbar,
 #tray,
 #custom-updates,
-#custom-wallchange,
-#custom-wbar,
 #window,
 #disk,
 #workspaces,
@@ -122,8 +129,8 @@ tooltip {
     color: @main-fg;
     background: @main-bg;
     opacity: 1;
-    margin: 4px 0px 4px 0px;
-    padding: 4px 5px;
+    margin: 8px 0px 8px 0px;
+    padding: 4px 4px;
 }
 
 #workspaces,
@@ -133,36 +140,36 @@ tooltip {
 
 #custom-r_end {
     border-radius: 0px 21px 21px 0px;
-    margin-right: 2px;
+    margin-right: 5px;
     padding-right: 1px;
 }
 
 #custom-l_end {
     border-radius: 21px 0px 0px 21px;
-    margin-left: 2px;
+    margin-left: 5px;
     padding-left: 1px;
 }
 
 #custom-sr_end {
     border-radius: 0px;
-    margin-right: 2px;
+    margin-right: 5px;
     padding-right: 1px;
 }
 
 #custom-sl_end {
     border-radius: 0px;
-    margin-left: 2px;
+    margin-left: 5px;
     padding-left: 1px;
 }
 
 #custom-rr_end {
     border-radius: 0px 7px 7px 0px;
-    margin-right: 2px;
+    margin-right: 5px;
     padding-right: 1px;
 }
 
 #custom-rl_end {
     border-radius: 7px 0px 0px 7px;
-    margin-left: 2px;
+    margin-left: 5px;
     padding-left: 1px;
 }
